@@ -11,6 +11,10 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - **ANT.cpp** – Complex combinatorial formula with factorial precomputation and modular inverses.
 - **PEW.cpp** – Calculates distinct permutations of a string accounting for repeated characters.
 - **RECOVER.cpp** – (Work in progress) Input parsing for two strings; solution not yet implemented.
+- **MINLEX2.cpp** – Finds the smallest multiple of `k` within range `[L, R]` with digit-length constraints.
+- **PLAYOFF.cpp** – String parsing to check if a match score is possible given two results.
+- **MINX.cpp** – Computes least common multiple (LCM) using gcd relationships between three numbers.
+- **FIX.cpp** – GCD-based problem with sequence adjustments and parity analysis.
 
 ## Techniques Used
 - Modular arithmetic (`PowerMod`, modular inverses)  
@@ -23,3 +27,7 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - Precomputed factorials (modular arithmetic)  
 - Permutations with duplicate elements (multinomial coefficients)  
 - Placeholder for string recovery problem  
+- Number theory: GCD, LCM  
+- Modular arithmetic  
+- String parsing and validation  
+- Array scanning with parity logic  
