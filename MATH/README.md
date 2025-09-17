@@ -15,6 +15,11 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - **PLAYOFF.cpp** – String parsing to check if a match score is possible given two results.
 - **MINX.cpp** – Computes least common multiple (LCM) using gcd relationships between three numbers.
 - **FIX.cpp** – GCD-based problem with sequence adjustments and parity analysis.
+- **PEW.cpp** – Counts distinct permutations of a string considering repeated characters (multinomial coefficients, modular inverse).
+- **RECOVER.cpp** – Work in progress; parses two strings for future reconstruction logic.
+- **LCM.cpp** – Splits `n` into two numbers with minimal LCM (gcd-based search).
+- **DIOPHANTE.cpp** – Extended Euclidean algorithm to count integer solutions of linear Diophantine equations.
+- **DIO.cpp** – Alternative extended Euclidean implementation with explicit solution generation and parametric form.
 
 ## Techniques Used
 - Modular arithmetic (`PowerMod`, modular inverses)  
@@ -30,4 +35,9 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - Number theory: GCD, LCM  
 - Modular arithmetic  
 - String parsing and validation  
-- Array scanning with parity logic  
+- Array scanning with parity logic
+- Modular arithmetic and combinatorics  
+- Factorials with modular inverses  
+- Binary search on gcd/lcm splits  
+- Extended Euclidean Algorithm for solving Diophantine equations  
+- Work-in-progress problem setups 
