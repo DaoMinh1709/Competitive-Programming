@@ -20,6 +20,11 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - **LCM.cpp** – Splits `n` into two numbers with minimal LCM (gcd-based search).
 - **DIOPHANTE.cpp** – Extended Euclidean algorithm to count integer solutions of linear Diophantine equations.
 - **DIO.cpp** – Alternative extended Euclidean implementation with explicit solution generation and parametric form.
+- **DMT.cpp** – Uses sieve to precompute numbers of a specific quadratic form; answers range queries with binary search.
+- **BITRANS.cpp** – Computes a binary transformation sequence with custom string addition.
+- **HPRIME.cpp** – Finds primes ≤ n whose digit sum equals m, outputs count and list.
+- **CHOCOLATE.cpp** – Calculates product of distances between markers ('X') in a string.
+- **AD.cpp** – Computes character frequency difference between two strings (anagram distance).
 
 ## Techniques Used
 - Modular arithmetic (`PowerMod`, modular inverses)  
@@ -41,3 +46,8 @@ This folder contains C++ solutions to advanced math and algorithmic problems.
 - Binary search on gcd/lcm splits  
 - Extended Euclidean Algorithm for solving Diophantine equations  
 - Work-in-progress problem setups 
+- Prime sieve + range queries  
+- Custom string addition (big integers in string form)  
+- Digit-sum checks on primes  
+- Combinatorics on string markers  
+- String frequency arrays (anagram distance)  
