@@ -1,5 +1,3 @@
-# Geometry Problem Solutions
-
 This folder contains C++ solutions to computational geometry problems, including convex hulls, polygon checks, and geometric constructions.
 
 ## Files
